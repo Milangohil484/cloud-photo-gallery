@@ -1,4 +1,4 @@
-const BACKEND_CORE_API = 'http://localhost:5000/api';
+const BACKEND_CORE_API = 'https://cloud-photo-gallery.onrender.com/api';
 let activeUiMode = 'login';
 let loggedInUserId = localStorage.getItem('userId') || null;
 let loggedInUserName = localStorage.getItem('userName') || null;
